@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GrooveFest Music Festival</title>
+  <title data-i18n="title">Out of Time Festival</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,15 +11,15 @@
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="logo">
-      <img src="assets/images/logo.png" alt="GrooveFest Logo">
+      <img src="" alt="" data-i18n-img="logo">
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="bands.html">Lineup</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="genres.html">Genres</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html" data-i18n="nav.home"></a></li>
+        <li><a href="bands.html" data-i18n="nav.collections"></a></li>
+        <li><a href="about.html" data-i18n="nav.about"></a></li>
+        <li><a href="genres.html" data-i18n="nav.lookbook"></a></li>
+        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
       </ul>
     </nav>
     <select id="langSwitcher">
@@ -31,53 +31,57 @@
   <!-- HERO -->
   <section class="hero">
     <div class="image-tooltip-container">
-      <img src="assets/images/hero.jpg" alt="Featured Band">
-      <span class="tooltip-text">Featured Band: The Neon Beats</span>
+      <img src="" alt="" data-i18n-img="hero.img">
+      <span class="tooltip-text" data-i18n="home.featured"></span>
     </div>
     <div class="hero-text">
-      <h1>Featured Band: The Neon Beats</h1>
-      <p>Electrifying rhythms from the heart of the city. These beats will make your soul dance!</p>
-      <a href="bands.html#neon-beats" class="cta-btn">Learn More</a>
+      <h1 data-i18n="home.featured"></h1>
+      <p data-i18n="band1.desc"></p>
+      <a href="bands.html#neon-beats" class="cta-btn" data-i18n="hero.cta"></a>
     </div>
   </section>
 
   <!-- FEATURED BANDS -->
   <section class="featured container">
-    <h2>Festival Bands Lineup</h2>
+    <h2 data-i18n="collections.title"></h2>
     <div class="product-grid">
+
       <div class="product-card" id="neon-beats">
-        <img src="assets/images/music_band1.jpg" alt="The Neon Beats">
-        <h3>The Neon Beats</h3>
-        <p>Formed in 2015, The Neon Beats electrified the underground scene with pulsating synth-rock. Known for their immersive live shows.</p>
-        <p><strong>Popular Songs:</strong></p>
+        <img src="" alt="" data-i18n-img="band1.img">
+        <h3 data-i18n="band1.name"></h3>
+        <p data-i18n="band1.desc"></p>
+        <p><strong data-i18n="band1.songsTitle">Popular Songs:</strong></p>
         <ul>
-          <li>City Lights</li>
-          <li>Electric Pulse</li>
-          <li>Midnight Groove</li>
+          <li data-i18n-list="band1.songs" data-i18n-index="0"></li>
+          <li data-i18n-list="band1.songs" data-i18n-index="1"></li>
+          <li data-i18n-list="band1.songs" data-i18n-index="2"></li>
         </ul>
       </div>
+
       <div class="product-card" id="blue-harmony">
-        <img src="assets/images/music_band2.jpg" alt="Blue Harmony">
-        <h3>Blue Harmony</h3>
-        <p>Blue Harmony emerged in 2010 blending soulful pop and smooth jazz. Their tunes are a mix of chill vibes and catchy hooks.</p>
-        <p><strong>Popular Songs:</strong></p>
+        <img src="" alt="" data-i18n-img="band2.img">
+        <h3 data-i18n="band2.name"></h3>
+        <p data-i18n="band2.desc"></p>
+        <p><strong data-i18n="band2.songsTitle">Popular Songs:</strong></p>
         <ul>
-          <li>Ocean Breeze</li>
-          <li>Skyline Dreams</li>
-          <li>Moonlit Melody</li>
+          <li data-i18n-list="band2.songs" data-i18n-index="0"></li>
+          <li data-i18n-list="band2.songs" data-i18n-index="1"></li>
+          <li data-i18n-list="band2.songs" data-i18n-index="2"></li>
         </ul>
       </div>
+
       <div class="product-card" id="golden-echo">
-        <img src="assets/images/music_band3.jpg" alt="Golden Echo">
-        <h3>Golden Echo</h3>
-        <p>Golden Echo, established in 2005, keeps oldies alive with modern flair. Their concerts are a nostalgic trip for all generations.</p>
-        <p><strong>Popular Songs:</strong></p>
+        <img src="" alt="" data-i18n-img="band3.img">
+        <h3 data-i18n="band3.name"></h3>
+        <p data-i18n="band3.desc"></p>
+        <p><strong data-i18n="band3.songsTitle">Popular Songs:</strong></p>
         <ul>
-          <li>Timeless Tune</li>
-          <li>Retro Vibes</li>
-          <li>Golden Days</li>
+          <li data-i18n-list="band3.songs" data-i18n-index="0"></li>
+          <li data-i18n-list="band3.songs" data-i18n-index="1"></li>
+          <li data-i18n-list="band3.songs" data-i18n-index="2"></li>
         </ul>
       </div>
+
     </div>
   </section>
 

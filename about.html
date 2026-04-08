@@ -3,59 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Out of Time Festival - About</title>
-  <link rel="stylesheet" href="styles.css">
+  <title data-i18n="about.title">About Festival</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="bands.html">Lineup</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="genres.html">Genres</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section class="about-hero">
-      <div class="about-hero-text">
-        <h1>About Out of Time Festival</h1>
-        <p>Where music transcends hours and every beat takes you on a journey beyond time.</p>
-      </div>
-    </section>
+<header class="navbar">
+  <div class="logo">
+    <img src="" alt="" data-i18n-img="logo">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html" data-i18n="nav.home"></a></li>
+      <li><a href="bands.html" data-i18n="nav.collections"></a></li>
+      <li><a href="about.html" data-i18n="nav.about"></a></li>
+      <li><a href="genres.html" data-i18n="nav.lookbook"></a></li>
+      <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+    </ul>
+  </nav>
+  <select id="langSwitcher">
+    <option value="en">EN</option>
+    <option value="es">ES</option>
+  </select>
+</header>
 
-    <section class="about-story">
-      <div class="container">
-        <h2>Our Story</h2>
-        <p>Founded in 2021, <strong>Out of Time Festival</strong> celebrates music in all its forms, bringing together fans, artists, and unforgettable vibes. From electrifying rock to smooth pop and classic oldies, every stage offers a unique experience.</p>
-      </div>
-    </section>
+<main>
+  <section class="about-hero">
+    <div class="about-hero-text">
+      <h1 data-i18n="about.title"></h1>
+      <p data-i18n="about.story"></p>
+    </div>
+  </section>
 
-    <section class="about-mission">
-      <div class="container">
-        <h2>Our Mission</h2>
-        <p>Our mission is to create a festival where time feels suspended and music speaks louder than words. We aim to unite communities, ignite creativity, and make memories that resonate long after the last note fades.</p>
-      </div>
-    </section>
+  <section class="about-mission">
+    <div class="container">
+      <h2 data-i18n="about.mission"></h2>
+    </div>
+  </section>
+</main>
 
-    <section class="about-facts">
-      <div class="container">
-        <h2>Festival Highlights</h2>
-        <ul>
-          <li>3 stages with over 10 international bands</li>
-          <li>Workshops and jam sessions for music lovers</li>
-          <li>Food trucks, art installations, and immersive experiences</li>
-          <li>Eco-friendly practices and sustainable festival design</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+<footer>
+  <p>&copy; 2026 <span data-i18n="title">Out of Time Festival</span>. All Rights Reserved.</p>
+</footer>
 
-  <footer>
-    <p>&copy; 2026 Out of Time Festival. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
