@@ -29,23 +29,20 @@
   "band3.img": "assets/images/en/music_band3.jpg",
   "band3.songs": ["Timeless Tune", "Retro Vibes", "Golden Days"],
 
-  "lookbook.title": "Music Genres",
-  
-  "lookbook.caption1": "Rock",
-  "lookbook.desc1": "Feel the thunder! Rock is the heart and soul of festival energy — guitars wailing and drums pounding with every pulse.",
-  "lookbook.img1": "assets/images/en/music_genre1.jpg",
+  "genres.title": "Genres - GrooveFest",
+  "genres.titleSection": "Music Genres at GrooveFest",
 
-  "lookbook.caption2": "Pop",
-  "lookbook.desc2": "Pop hits are sticky as bubblegum and shine like glitter — guaranteed to get everyone dancing under the lights.",
-  "lookbook.img2": "assets/images/en/music_genre2.jpg",
+  "genre1.name": "Rock",
+  "genre1.desc": "Get ready to rock the boat! With guitars blazing and drums hammering, rock music at GrooveFest hits all the right notes. From headbanging riffs to soulful solos, it's a feast for your ears that’ll leave you on cloud nine.",
+  "genre1.img": "assets/images/en/music_genre1.jpg",
 
-  "lookbook.caption3": "Oldies",
-  "lookbook.desc3": "Classic tunes that never get old — a time‑travel soundscape perfect for reliving golden memories.",
-  "lookbook.img3": "assets/images/en/music_genre3.jpg",
+  "genre2.name": "Pop",
+  "genre2.desc": "Pop music is the cherry on top of our festival sundae. Catchy hooks and toe-tapping beats will have you dancing like nobody’s watching. Don't be surprised if you end up singing in the rain!",
+  "genre2.img": "assets/images/en/music_genre2.jpg",
 
-  "about.title": "About Out of Time Festival",
-  "about.story": "Out of Time Festival was born from a desire to create timeless musical moments — where genres collide and memories are made.",
-  "about.mission": "Our mission is to unite artists and fans alike with unforgettable performances, heart‑felt rhythms, and a celebration of sound.",
+  "genre3.name": "Oldies",
+  "genre3.desc": "Golden hits from yesteryears that never get old! Our oldies lineup is like a blast from the past, perfect for reliving memories and making new ones. A true time-travel experience—music with a heart of gold.",
+  "genre3.img": "assets/images/en/music_genre3.jpg",
 
   "contact.title": "Get in Touch",
   "contact.text": "Questions, suggestions, or joining info? We’d love to hear from you!",
