@@ -3,48 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="about.title">About Festival</title>
+  <title data-i18n="about.title">Out of Time Festival - About</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="navbar">
-  <div class="logo">
-      <img src="assets/images/logo.png" alt="Out of Time Festival Logo">
-  </div>
-  <nav>
-    <ul>
-      <li><a href="index.html" data-i18n="nav.home"></a></li>
-      <li><a href="bands.html" data-i18n="nav.collections"></a></li>
-      <li><a href="about.html" data-i18n="nav.about"></a></li>
-      <li><a href="genres.html" data-i18n="nav.lookbook"></a></li>
-      <li><a href="contact.html" data-i18n="nav.contact"></a></li>
-    </ul>
-  </nav>
-  <select id="langSwitcher">
-    <option value="en">EN</option>
-    <option value="es">ES</option>
-  </select>
-</header>
-
-<main>
-  <section class="about-hero">
-    <div class="about-hero-text">
-      <h1 data-i18n="about.title"></h1>
-      <p data-i18n="about.story"></p>
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="GrooveFest Logo">
     </div>
-  </section>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="bands.html" data-i18n="nav.lineup">Lineup</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="genres.html" data-i18n="nav.genres">Genres</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <select id="langSwitcher">
+      <option value="en">EN</option>
+      <option value="es">ES</option>
+    </select>
+  </header>
 
-  <section class="about-mission">
-    <div class="container">
-      <h2 data-i18n="about.mission"></h2>
-    </div>
-  </section>
-</main>
+  <main>
+    <section class="about-hero">
+      <div class="about-hero-text">
+        <h1 data-i18n="about.heroTitle">About Out of Time Festival</h1>
+        <p data-i18n="about.heroDesc">Where music transcends hours and every beat takes you on a journey beyond time.</p>
+      </div>
+    </section>
 
-<footer>
-  <p>&copy; 2026 <span data-i18n="title">Out of Time Festival</span>. All Rights Reserved.</p>
-</footer>
+    <section class="about-story container">
+      <h2 data-i18n="about.storyTitle">Our Story</h2>
+      <p data-i18n="about.storyText">Founded in 2021, <strong>Out of Time Festival</strong> celebrates music in all its forms, bringing together fans, artists, and unforgettable vibes. From electrifying rock to smooth pop and classic oldies, every stage offers a unique experience.</p>
+    </section>
 
+    <section class="about-mission container">
+      <h2 data-i18n="about.missionTitle">Our Mission</h2>
+      <p data-i18n="about.missionText">Our mission is to create a festival where time feels suspended and music speaks louder than words. We aim to unite communities, ignite creativity, and make memories that resonate long after the last note fades.</p>
+    </section>
+
+    <section class="about-facts container">
+      <h2 data-i18n="about.highlightsTitle">Festival Highlights</h2>
+      <ul>
+        <li data-i18n="about.fact1">3 stages with over 10 international bands</li>
+        <li data-i18n="about.fact2">Workshops and jam sessions for music lovers</li>
+        <li data-i18n="about.fact3">Food trucks, art installations, and immersive experiences</li>
+        <li data-i18n="about.fact4">Eco-friendly practices and sustainable festival design</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Out of Time Festival. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>

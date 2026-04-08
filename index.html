@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="title">Out of Time Festival</title>
+  <title data-i18n="home.title">GrooveFest Music Festival</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,79 +11,80 @@
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="logo">
-      <img src="assets/images/logo.png" alt="Out of Time Festival Logo">
+      <img src="assets/images/logo.png" alt="GrooveFest Logo">
     </div>
     <nav>
       <ul>
-        <li><a href="index.html" data-i18n="nav.home"></a></li>
-        <li><a href="bands.html" data-i18n="nav.collections"></a></li>
-        <li><a href="about.html" data-i18n="nav.about"></a></li>
-        <li><a href="genres.html" data-i18n="nav.lookbook"></a></li>
-        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="bands.html" data-i18n="nav.lineup">Lineup</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="genres.html" data-i18n="nav.genres">Genres</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
     <select id="langSwitcher">
       <option value="en">EN</option>
-      <option value="es">UK</option>
+      <option value="es">ES</option>
     </select>
   </header>
 
   <!-- HERO -->
   <section class="hero">
     <div class="image-tooltip-container">
-      <img src="" alt="" data-i18n-img="hero.img">
-      <span class="tooltip-text" data-i18n="home.featured"></span>
+      <img id="hero-img" src="" alt="" data-i18n-img="hero.img">
+      <span class="tooltip-text" data-i18n="hero.tooltip"></span>
     </div>
     <div class="hero-text">
-      <h1 data-i18n="home.featured"></h1>
-      <p data-i18n="band1.desc"></p>
-      <a href="bands.html#neon-beats" class="cta-btn" data-i18n="hero.cta"></a>
+      <h1 data-i18n="hero.title">Featured Band: The Neon Beats</h1>
+      <p data-i18n="hero.desc">Electrifying rhythms from the heart of the city. These beats will make your soul dance!</p>
+      <a href="bands.html#neon-beats" class="cta-btn" data-i18n="hero.cta">Learn More</a>
     </div>
   </section>
 
   <!-- FEATURED BANDS -->
   <section class="featured container">
-    <h2 data-i18n="collections.title"></h2>
+    <h2 data-i18n="bands.featuredTitle">Festival Bands Lineup</h2>
     <div class="product-grid">
 
       <div class="product-card" id="neon-beats">
         <img src="" alt="" data-i18n-img="band1.img">
-        <h3 data-i18n="band1.name"></h3>
-        <p data-i18n="band1.desc"></p>
-        <p><strong data-i18n="band1.songsTitle">Popular Songs:</strong></p>
+        <h3 data-i18n="band1.name">The Neon Beats</h3>
+        <p data-i18n="band1.desc">Formed in 2015, The Neon Beats electrified the underground scene with pulsating synth-rock. Known for their immersive live shows.</p>
+        <p><strong data-i18n="bands.popularSongs">Popular Songs:</strong></p>
         <ul>
-          <li data-i18n-list="band1.songs" data-i18n-index="0"></li>
-          <li data-i18n-list="band1.songs" data-i18n-index="1"></li>
-          <li data-i18n-list="band1.songs" data-i18n-index="2"></li>
+          <li data-i18n="band1.song1">City Lights</li>
+          <li data-i18n="band1.song2">Electric Pulse</li>
+          <li data-i18n="band1.song3">Midnight Groove</li>
         </ul>
       </div>
 
       <div class="product-card" id="blue-harmony">
         <img src="" alt="" data-i18n-img="band2.img">
-        <h3 data-i18n="band2.name"></h3>
-        <p data-i18n="band2.desc"></p>
-        <p><strong data-i18n="band2.songsTitle">Popular Songs:</strong></p>
+        <h3 data-i18n="band2.name">Blue Harmony</h3>
+        <p data-i18n="band2.desc">Blue Harmony emerged in 2010 blending soulful pop and smooth jazz. Their tunes are a mix of chill vibes and catchy hooks.</p>
+        <p><strong data-i18n="bands.popularSongs">Popular Songs:</strong></p>
         <ul>
-          <li data-i18n-list="band2.songs" data-i18n-index="0"></li>
-          <li data-i18n-list="band2.songs" data-i18n-index="1"></li>
-          <li data-i18n-list="band2.songs" data-i18n-index="2"></li>
+          <li data-i18n="band2.song1">Ocean Breeze</li>
+          <li data-i18n="band2.song2">Skyline Dreams</li>
+          <li data-i18n="band2.song3">Moonlit Melody</li>
         </ul>
       </div>
 
       <div class="product-card" id="golden-echo">
         <img src="" alt="" data-i18n-img="band3.img">
-        <h3 data-i18n="band3.name"></h3>
-        <p data-i18n="band3.desc"></p>
-        <p><strong data-i18n="band3.songsTitle">Popular Songs:</strong></p>
+        <h3 data-i18n="band3.name">Golden Echo</h3>
+        <p data-i18n="band3.desc">Golden Echo, established in 2005, keeps oldies alive with modern flair. Their concerts are a nostalgic trip for all generations.</p>
+        <p><strong data-i18n="bands.popularSongs">Popular Songs:</strong></p>
         <ul>
-          <li data-i18n-list="band3.songs" data-i18n-index="0"></li>
-          <li data-i18n-list="band3.songs" data-i18n-index="1"></li>
-          <li data-i18n-list="band3.songs" data-i18n-index="2"></li>
+          <li data-i18n="band3.song1">Timeless Tune</li>
+          <li data-i18n="band3.song2">Retro Vibes</li>
+          <li data-i18n="band3.song3">Golden Days</li>
         </ul>
       </div>
 
     </div>
   </section>
 
+  <script src="app.js"></script>
 </body>
 </html>
