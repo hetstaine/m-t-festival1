@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="lookbook.title">Music Genres</title>
+  <title data-i18n="genres.title">Genres - GrooveFest</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,43 +15,44 @@
     </div>
     <nav>
       <ul>
-        <li><a href="index.html" data-i18n="nav.home"></a></li>
-        <li><a href="bands.html" data-i18n="nav.collections"></a></li>
-        <li><a href="about.html" data-i18n="nav.about"></a></li>
-        <li><a href="genres.html" data-i18n="nav.lookbook"></a></li>
-        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="bands.html" data-i18n="nav.lineup">Lineup</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="genres.html" data-i18n="nav.genres">Genres</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
     <select id="langSwitcher">
       <option value="en">EN</option>
-      <option value="es">UK</option>
+      <option value="uk">UK</option>
     </select>
   </header>
 
   <section class="tips container">
-    <h2 data-i18n="lookbook.title"></h2>
+    <h2 data-i18n="genres.titleSection">Music Genres at GrooveFest</h2>
     <div class="product-grid">
 
       <div class="product-card" id="rock">
-        <img src="" alt="" data-i18n-img="lookbook.img1">
-        <h3 data-i18n="lookbook.caption1"></h3>
-        <p data-i18n="lookbook.desc1"></p>
+        <img src="" alt="" data-i18n-img="genre1.img">
+        <h3 data-i18n="genre1.name">Rock</h3>
+        <p data-i18n="genre1.desc">Get ready to rock the boat! With guitars blazing and drums hammering, rock music at GrooveFest hits all the right notes. From headbanging riffs to soulful solos, it's a feast for your ears that’ll leave you on cloud nine.</p>
       </div>
 
       <div class="product-card" id="pop">
-        <img src="" alt="" data-i18n-img="lookbook.img2">
-        <h3 data-i18n="lookbook.caption2"></h3>
-        <p data-i18n="lookbook.desc2"></p>
+        <img src="" alt="" data-i18n-img="genre2.img">
+        <h3 data-i18n="genre2.name">Pop</h3>
+        <p data-i18n="genre2.desc">Pop music is the cherry on top of our festival sundae. Catchy hooks and toe-tapping beats will have you dancing like nobody’s watching. Don't be surprised if you end up singing in the rain!</p>
       </div>
 
       <div class="product-card" id="oldies">
-        <img src="" alt="" data-i18n-img="lookbook.img3">
-        <h3 data-i18n="lookbook.caption3"></h3>
-        <p data-i18n="lookbook.desc3"></p>
+        <img src="" alt="" data-i18n-img="genre3.img">
+        <h3 data-i18n="genre3.name">Oldies</h3>
+        <p data-i18n="genre3.desc">Golden hits from yesteryears that never get old! Our oldies lineup is like a blast from the past, perfect for reliving memories and making new ones. A true time-travel experience—music with a heart of gold.</p>
       </div>
 
     </div>
   </section>
 
+  <script src="app.js"></script>
 </body>
 </html>
