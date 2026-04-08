@@ -2,13 +2,13 @@
   "title": "Out of Time Festival",
 
   "nav.home": "Home",
-  "nav.bands": "Lineup",
+  "nav.lineup": "Lineup",
   "nav.genres": "Genres",
   "nav.about": "About",
   "nav.contact": "Contact",
 
   "hero.title": "Out of Time Festival",
-  "hero.subtitle": "Where every beat stands still and the music never ends",
+  "hero.description": "Where every beat stands still and the music never ends",
   "hero.cta": "See the Lineup",
   "hero.img": "assets/images/en/hero.jpg",
 
