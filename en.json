@@ -1,5 +1,5 @@
 {
-  "title": "Out of Time Festival",
+  "home.title": "Out of Time Festival",
 
   "nav.home": "Home",
   "nav.lineup": "Lineup",
@@ -29,7 +29,7 @@
   "band3.img": "assets/images/en/music_band3.jpg",
   "band3.songs": ["Timeless Tune", "Retro Vibes", "Golden Days"],
 
-  "genres.title": "Genres - GrooveFest",
+  "genres.title": "Genres - Out of Time",
   "genres.titleSection": "Music Genres at GrooveFest",
 
   "genre1.name": "Rock",
@@ -53,5 +53,22 @@
   "contact.email": "you@example.com",
   "contact.message": "Type your message here...",
   "contact.cta": "Send Message",
-  "contact.follow": "Follow Us"
+  "contact.follow": "Follow Us",
+
+  "about.title": "Out of Time Festival - About",
+  
+  "about.heroTitle": "About Out of Time Festival",
+  "about.heroDesc": "Where music transcends hours and every beat takes you on a journey beyond time.",
+
+  "about.storyTitle": "Our Story",
+  "about.storyText": "Founded in 2021, <strong>Out of Time Festival</strong> celebrates music in all its forms, bringing together fans, artists, and unforgettable vibes. From electrifying rock to smooth pop and classic oldies, every stage offers a unique experience.",
+
+  "about.missionTitle": "Our Mission",
+  "about.missionText": "Our mission is to create a festival where time feels suspended and music speaks louder than words. We aim to unite communities, ignite creativity, and make memories that resonate long after the last note fades.",
+
+  "about.highlightsTitle": "Festival Highlights",
+  "about.fact1": "3 stages with over 10 international bands",
+  "about.fact2": "Workshops and jam sessions for music lovers",
+  "about.fact3": "Food trucks, art installations, and immersive experiences",
+  "about.fact4": "Eco-friendly practices and sustainable festival design"
 }
