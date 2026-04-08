@@ -1,46 +1,77 @@
-/* ================== HERO / ABOUT HERO FIX ================== */
+/* ================== Google Fonts ================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* ================== GLOBAL STYLES ================== */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ================== NAVBAR ================== */
+.navbar {
+  background-color: #111;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 15px 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  max-height: 80px;
+}
+
+.navbar nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #1db0ff;
+}
+
+#langSwitcher {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 5px;
+  background-color: #111;
+  color: #e0e0e0;
+  border: 1px solid #1db0ff;
+  border-radius: 4px;
+}
+
+/* ================== HERO / ABOUT HERO ================== */
+.hero,
 .about-hero {
   position: relative;
   width: 100%;
-  overflow: visible; /* allow text to overflow safely */
-  display: flex;
-  justify-content: center; /* center the content horizontally */
-  align-items: center; /* center vertically */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.about-hero img {
-  width: 100%;
-  height: auto; /* let image scale naturally */
-  max-height: 70vh;
-  object-fit: cover;
-}
-
-.about-hero-text {
-  position: relative; /* remove absolute positioning to prevent clipping */
-  max-width: 90%; /* responsive width */
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px 25px;
-  border-radius: 12px;
-  box-sizing: border-box;
-}
-
-.about-hero-text h1 {
-  font-size: clamp(1.8rem, 4vw, 3rem); /* scales for all screen sizes */
-  margin-bottom: 15px;
-}
-
-.about-hero-text p {
-  font-size: clamp(1rem, 2.5vw, 1.3rem); /* scales for all screen sizes */
-}
-
-/* ================== HERO FIX FOR OTHER HERO SECTIONS ================== */
-.hero {
-  position: relative;
-  width: 100%;
-  overflow: visible;
+  overflow: visible; /* fix clipping */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,51 +79,294 @@
   box-sizing: border-box;
 }
 
-.hero img {
+.hero img,
+.about-hero img {
   width: 100%;
   height: auto;
   max-height: 70vh;
   object-fit: cover;
 }
 
-.hero-text {
-  position: relative;
-  max-width: 90%;
+.hero-text,
+.about-hero-text {
+  position: relative; /* removed absolute to prevent clipping */
+  max-width: 90%; /* responsive width */
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 25px;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   box-sizing: border-box;
 }
 
-.hero-text h1 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
+.hero-text h1,
+.about-hero-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 3rem); /* responsive font size */
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
-.hero-text p {
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
+.hero-text p,
+.about-hero-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2.5vw, 1.3rem); /* responsive font size */
+  color: #ffffff;
 }
 
-/* ================== RESPONSIVE HERO ================== */
+/* ================== SECTIONS ================== */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #1db0ff;
+  margin-bottom: 30px;
+}
+
+section p, section li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+}
+
+/* ================== PRODUCT / BAND CARDS ================== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.product-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #1db0ff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* ================== NEWSLETTER ================== */
+.newsletter {
+  background-color: #111;
+  padding: 50px 20px;
+  border-top: 2px solid #1db0ff;
+  border-bottom: 2px solid #1db0ff;
+}
+
+.newsletter input[type="email"] {
+  padding: 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #1db0ff;
+  margin-right: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.newsletter button {
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1db0ff;
+  color: #0d0d0d;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.newsletter button:hover {
+  background-color: #0a86cc;
+}
+
+/* ================== TOOLTIP ================== */
+.tooltip-text {
+  visibility: hidden;
+  max-width: 220px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ================== CONTACT ================== */
+.contact-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.contact-form,
+.contact-details {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #1db0ff;
+  margin-bottom: 15px;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  background-color: #1db0ff;
+  color: #0d0d0d;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0a86cc;
+}
+
+.contact-details {
+  min-width: 250px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.contact-details h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #1db0ff;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.contact-details .social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.contact-details .social-links img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.contact-details .social-links img:hover {
+  transform: scale(1.2);
+}
+
+/* ================== LOOKBOOK / GENRES ================== */
+.lookbook .product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ================== RESPONSIVE ================== */
 @media (max-width: 768px) {
-  .about-hero img,
-  .hero img {
-    height: auto; /* remove fixed 50vh height */
+  .hero img,
+  .about-hero img {
+    height: auto;
   }
 
-  .about-hero-text h1,
-  .hero-text h1 {
+  .hero-text h1,
+  .about-hero-text h1 {
     font-size: clamp(1.5rem, 5vw, 2rem);
   }
 
-  .about-hero-text p,
-  .hero-text p {
+  .hero-text p,
+  .about-hero-text p {
     font-size: clamp(0.9rem, 3vw, 1.2rem);
   }
 
-  .about-hero-text,
-  .hero-text {
-    padding: 15px 20px;
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .contact-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-details {
+    width: 100%;
+    max-width: 400px;
   }
 }
