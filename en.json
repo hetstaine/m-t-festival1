@@ -17,27 +17,36 @@
   "newsletter.title": "Stay in the Loop",
   "newsletter.subtitle": "Get exclusive access — before the clock runs out on the music!",
   "newsletter.cta": "Subscribe",
+
+  "bands.popularSongs": "Popular Songs",
+  "bands.allTitle": "All Festival Bands",
   
   "band1.name": "The Neon Beats",
   "band1.desc": "Formed in 2015, The Neon Beats electrified the underground scene with pulsating synth-rock and breathtaking live energy.",
   "band1.img": "assets/images/en/music_band1.jpg",
-  "band1.songs": ["City Lights", "Electric Pulse", "Midnight Groove"],
+  "band1.song1": "City Lights",
+  "band1.song2": "Electric Pulse",
+  "band1.song3": "Midnight Groove",
 
   "band2.name": "Blue Harmony",
   "band2.desc": "Blue Harmony emerged in 2010, blending soulful pop and smooth jazz into irresistible festival anthems.",
   "band2.img": "assets/images/en/music_band2.jpg",
-  "band2.songs": ["Ocean Breeze", "Skyline Dreams", "Moonlit Melody"],
+  "band2.song1": "Ocean Breeze",
+  "band2.song2": "Skyline Dreams",
+  "band2.song3": "Moonlit Melody",
 
   "band3.name": "Golden Echo",
   "band3.desc": "Golden Echo, established in 2005, keeps classic vibes alive with modern flair and timeless crowd‑pleasers.",
   "band3.img": "assets/images/en/music_band3.jpg",
-  "band3.songs": ["Timeless Tune", "Retro Vibes", "Golden Days"],
+  "band3.song1": "Timeless Tune",
+  "band3.song2": "Retro Vibes",
+  "band3.song3": "Golden Days",
 
   "genres.title": "Genres - Out of Time",
-  "genres.titleSection": "Music Genres at GrooveFest",
+  "genres.titleSection": "Music Genres at Out of Time",
 
   "genre1.name": "Rock",
-  "genre1.desc": "Get ready to rock the boat! With guitars blazing and drums hammering, rock music at GrooveFest hits all the right notes. From headbanging riffs to soulful solos, it's a feast for your ears that’ll leave you on cloud nine.",
+  "genre1.desc": "Get ready to rock the boat! With guitars blazing and drums hammering, rock music at Out of Time hits all the right notes. From headbanging riffs to soulful solos, it's a feast for your ears that’ll leave you on cloud nine.",
   "genre1.img": "assets/images/en/music_genre1.jpg",
 
   "genre2.name": "Pop",

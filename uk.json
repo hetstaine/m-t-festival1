@@ -17,21 +17,30 @@
   "newsletter.title": "Будьте в курсі подій!",
   "newsletter.subtitle": "Підпишіться, щоб отримувати рецепти, поради та смачні новини.",
   "newsletter.cta": "Підписатися",
+
+  "bands.popularSongs": "Поп пісні",
+  "bands.allTitle": "Всі гурти",
   
   "band1.name": "The Neon Beats",
   "band1.desc": "Засновані у 2015 році, The Neon Beats заряджають андеграундну сцену пульсуючим синт-роком та захоплюючими живими виступами.",
   "band1.img": "assets/images/en/music_band1.jpg",
-  "band1.songs": ["City Lights", "Electric Pulse", "Midnight Groove"],
+  "band1.song1": "City Lights",
+  "band1.song2": "Electric Pulse",
+  "band1.song3": "Midnight Groove",
 
   "band2.name": "Blue Harmony",
   "band2.desc": "Blue Harmony з’явилися у 2010 році, поєднуючи душевний поп та м’який джаз у незабутні фестивальні хіти.",
   "band2.img": "assets/images/en/music_band2.jpg",
-  "band2.songs": ["Ocean Breeze", "Skyline Dreams", "Moonlit Melody"],
+  "band2.song1": "Ocean Breeze",
+  "band2.song2": "Skyline Dreams",
+  "band2.song3": "Moonlit Melody",
 
   "band3.name": "Golden Echo",
   "band3.desc": "Golden Echo, засновані у 2005 році, зберігають класичну атмосферу у сучасній подачі та дарують вічні хіти для глядачів.",
   "band3.img": "assets/images/en/music_band3.jpg",
-  "band3.songs": ["Timeless Tune", "Retro Vibes", "Golden Days"],
+  "band3.song1": "Timeless Tune",
+  "band3.song2": "Retro Vibes",
+  "band3.song3": "Golden Days",
 
   "genres.title": "Жанри - GrooveFest",
   "genres.titleSection": "Музичні жанри на GrooveFest",
