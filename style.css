@@ -319,6 +319,7 @@ ul {
   width: 32px;
   height: 32px;
   transition: transform 0.3s ease;
+  filter: invert(1);
 }
 
 .contact-details .social-links img:hover {
