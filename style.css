@@ -264,6 +264,7 @@ ul {
 
 .contact-form input,
 .contact-form textarea {
+  box-sizing: border-box;
   width: 100%;
   padding: 12px 15px;
   border-radius: 6px;
